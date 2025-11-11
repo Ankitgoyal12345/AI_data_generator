@@ -25,7 +25,7 @@ with requests.post(url, json={"model": "mistral:7b", "prompt": prompt}, stream=T
 
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-output_dir = os.path.expanduser("~/Desktop/docs/data_generator/test_data")  # folder on your Desktop
+output_dir = os.path.expanduser("~/Desktop/docs/data_generator/test_data")
 os.makedirs(output_dir, exist_ok=True)
 output_file = os.path.join(output_dir, f"test_data_{timestamp}.csv")
 
