@@ -33,7 +33,7 @@ output_file = os.path.join(output_dir, f"test_data_{timestamp}.csv")
 with open(output_file, "w") as f:
     f.write(full_response.strip())
 
-print(f"\n✅ Data generation complete! Saved to:\n{output_file}\n")
+print(f"\n✅ Data generation completed! Saved to:\n{output_file}\n")
 
 
 print("🔹 Preview of generated data:\n")
